@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "multinoise-3d",
+  "version": "${version}",
+
+  "name": "3D multi_noise",
+  "description": "Enables three-dimensional sampling for minecraft:multi_noise",
+  "authors": [
+    "mschae23"
+  ],
+  "contact": {
+    "sources": "https://github.com/mschae23/multinoise-3d",
+    "issues": "https://github.com/mschae23/multinoise-3d/issues"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/multinoise-3d/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.martenschaefer.multinoise3d.MultiNoise3DMod"
+    ]
+  },
+  "mixins": [
+    "multinoise-3d.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.17.x"
+  },
+  "suggests": {
+  }
+}
